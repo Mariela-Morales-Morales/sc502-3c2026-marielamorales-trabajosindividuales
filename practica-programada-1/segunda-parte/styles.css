@@ -16,12 +16,30 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  width: 100%;
 }
 
 nav a {
   color: #2f6f8f;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
+}
+
+.tarjetas-pacientes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.tarjeta {
+  width: 30%;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border: 1px solid #cfeeff;
+  border-radius: 10px;
 }
 
 nav a:hover {
