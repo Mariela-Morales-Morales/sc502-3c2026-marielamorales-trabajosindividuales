@@ -1,8 +1,83 @@
+body {
+  margin: 0;
+  background-color: #f4faff;
+  color: #2f4f5f;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+header {
+  background-color: #cfeeff;
+  padding: 1rem 2rem;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+}
+
+nav a {
+  color: #2f6f8f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #174f6b;
+}
+
+main {
+  padding: 2rem;
+}
+
+.perfil-doctor {
+  background-color: white;
+  width: 70%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #cfeeff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nombre-doctor {
+  color: #3c8dbc;
+  margin-bottom: 0.5rem;
+}
+
+.especialidad {
+  color: #79bfe3;
+  margin-top: 0;
+}
+
+#descripcion-doctor {
+  margin: 1rem 0;
+}
+
+button {
+  background-color: #8fd3f4;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #5bb6e6;
+  transform: translateY(-5px);
+}
+
+.comentarios {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.comentarios h2 {
+  color: #3c8dbc;
 }
 
 .tarjetas-pacientes {
@@ -13,4 +88,21 @@ nav {
 
 .tarjeta {
   width: 30%;
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border: 1px solid #cfeeff;
+  border-radius: 10px;
+}
+
+.tarjeta h3 {
+  color: #3c8dbc;
+}
+
+.tarjeta p {
+  color: #496b7a;
+}
+
+.tarjeta small {
+  color: #79a6bb;
 }
